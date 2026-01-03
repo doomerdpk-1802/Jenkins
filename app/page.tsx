@@ -28,7 +28,7 @@ export default function Home() {
       <div className="input-group">
         <input
           type="text"
-          placeholder="Conquer chaos! one task at a time...!!"
+          placeholder="Conquer chaos! one task at a time..."
           value={todo}
           onChange={handleChange}
         />
