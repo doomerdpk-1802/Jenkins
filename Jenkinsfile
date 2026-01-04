@@ -25,6 +25,8 @@ pipeline{
                     load 'jenkins/checkout_code.groovy'
                     load 'jenkins/install_dependencies.groovy'
                     load 'jenkins/lint.groovy'
+                    load 'jenkins/audit.groovy'
+                    load 'jenkins/sonar_scan.groovy'
                     load 'jenkins/coverage.groovy'
                     load 'jenkins/test.groovy'
                     load 'jenkins/build.groovy'
