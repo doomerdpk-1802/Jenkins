@@ -1,5 +1,3 @@
-stage('lint') {
-    steps{
-       sh 'yarn lint'
-    }    
+stage('Lint') {
+  sh 'yarn lint'
 }

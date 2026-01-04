@@ -1,5 +1,3 @@
-stage('build'){
-    steps {
-        sh 'yarn build'
-    }  
+stage('Build Next.js App') {
+  sh 'yarn build'
 }

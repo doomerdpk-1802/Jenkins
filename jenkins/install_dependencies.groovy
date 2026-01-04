@@ -1,5 +1,3 @@
-stage('install dependencies'){
-    steps{
-        sh 'npm ci'
-    }   
+stage('Install Dependencies') {
+  sh 'yarn install'
 }

@@ -1,5 +1,3 @@
 stage('test') {
-    steps {
-        sh 'yarn test'
-    }
+    sh 'yarn test'
 }

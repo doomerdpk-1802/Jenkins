@@ -1,5 +1,3 @@
-stage('checkout'){
-    steps{
-        checkout scm
-    }   
+stage('Checkout') {
+  checkout scm
 }
