@@ -1,3 +1,8 @@
-stage('test') {
-    sh 'yarn test'
+stage('Test') {
+  steps {
+    sh '''
+      echo "Running tests..."
+      npm test
+    '''
+  }
 }

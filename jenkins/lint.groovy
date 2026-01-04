@@ -1,3 +1,8 @@
 stage('Lint') {
-  sh 'yarn lint'
+  steps {
+    sh '''
+      echo "Running ESLint..."
+      yarn lint
+    '''
+  }
 }
