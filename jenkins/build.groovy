@@ -1,3 +1,6 @@
 stage('Build Next.js App') {
-  sh 'yarn build'
+  sh '''
+      echo "Running build..."
+      yarn build
+    '''
 }

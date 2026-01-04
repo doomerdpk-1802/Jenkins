@@ -1,3 +1,6 @@
 stage('Install Dependencies') {
-  sh 'yarn install'
+    sh '''
+      echo "Installing Dependencies..."
+      yarn install
+    '''
 }

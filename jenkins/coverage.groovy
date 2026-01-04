@@ -1,7 +1,6 @@
 stage('Coverage') {
-  steps {
     sh '''
+      echo "Running Coverage check..."
       yarn test:coverage
     '''
-  }
 }
