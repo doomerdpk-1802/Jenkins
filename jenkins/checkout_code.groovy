@@ -1,0 +1,3 @@
+stage('Checkout') {
+  checkout scm
+}

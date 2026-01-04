@@ -10,7 +10,8 @@
     "lint:fix": "eslint app next.config.ts postcss.config.mjs --fix",
     "lint:debug": "eslint app --debug",
     "lint:staged": "npx lint-staged",
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "dependencies": {
     "next": "16.1.1",
