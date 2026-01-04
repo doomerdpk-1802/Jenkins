@@ -35,10 +35,10 @@ pipeline{
 
     post {
         success{
-            echo "✅ CI passed on ${env.BRANCH_NAME}"
+            echo "✅ CI passed successfully!"
         }
         failure{
-           echo "❌ CI failed on ${env.BRANCH_NAME}"
+           echo "❌ CI failed!"
         }
         always{
             cleanWs()
