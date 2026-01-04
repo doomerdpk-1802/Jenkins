@@ -18,17 +18,20 @@ pipeline{
         CI = 'true'
     }
 
-    stage('CI Pipeline') {
-        steps{
-            script {
-                load 'jenkins/checkout_code.groovy'
-                load 'jenkins/install_dependencies.groovy'
-                load 'jenkins/lint.groovy'
-                load 'jenkins/test.groovy'
-                load 'jenkins/build.groovy'
+    stages{
+        stage('CI Pipeline') {
+            steps{
+                script {
+                    load 'jenkins/checkout_code.groovy'
+                    load 'jenkins/install_dependencies.groovy'
+                    load 'jenkins/lint.groovy'
+                    load 'jenkins/test.groovy'
+                    load 'jenkins/build.groovy'
+                }
             }
         }
     }
+
 
     post {
         success{

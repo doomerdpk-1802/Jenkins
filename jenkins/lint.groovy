@@ -1,6 +1,5 @@
 stage('lint') {
     steps{
-      sh 'yarn lint'
-    }
-    
+       sh 'yarn lint'
+    }    
 }

@@ -1,5 +1,5 @@
 stage('install dependencies'){
-steps{
-    sh 'npm ci'
-}   
+    steps{
+        sh 'npm ci'
+    }   
 }

@@ -1,5 +1,5 @@
 stage('build'){
-steps{
-      sh 'yarn build'
+    steps {
+        sh 'yarn build'
     }  
 }
